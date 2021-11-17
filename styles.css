@@ -1,13 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif;
     width: 100%;
+    padding-top: 80px;
+    position: relative;
 }
 
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
  
 html, body {
@@ -29,12 +31,16 @@ a:hover{
 }
 
 header{
-    height: 80px;
+    height: 60px;
+    position: fixed;
+    background-color: white;
     display: flex;
+    top: 0%;
+    z-index: 90;
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     width: 100%;
     margin: auto;
 }
@@ -52,8 +58,8 @@ header{
 }
 
 .logo__img{
-    height: 53px;
-    width: 53px;
+    height: 43px;
+    width: 43px;
 }
 
 .contact{
@@ -69,11 +75,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    font-size: 20px;
 }
 .text:hover{
-    background-color: rgba(0, 0, 0, 0.493);
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
 }
 
 .img_section{
@@ -83,8 +90,12 @@ header{
 
 
 @media (min-width: 735px) {
+    .text{
+        font-size: 30px;
+    }
     header{
-        height: 135px;
+        padding: 0px 100px;
+        height: 90px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -102,6 +113,10 @@ header{
     }
     .itemL{
         flex-basis: 100%;
+    }
+    .logo__img{
+        height: 53px;
+        width: 53px;
     }
 }
 
