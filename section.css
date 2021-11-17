@@ -1,0 +1,33 @@
+/* NAV */
+
+.description{
+    width: 100%;
+    margin-bottom: 60px;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__next{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 735px) {
+    .description{
+        margin-bottom: 80px;
+    }
+}
+
+.description{
+    margin-top: 45px;
+    text-align: center;
+}
