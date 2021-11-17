@@ -33,6 +33,11 @@
 .as{
     font-size: 50px;
     font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.as_p{
+    margin-bottom: 20px;
 }
 
 .presentation__span{
