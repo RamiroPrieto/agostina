@@ -1,6 +1,7 @@
 .tarjeta{
     position: relative;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .contact__text{
@@ -21,10 +22,23 @@
     margin-bottom: 67px;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 50px;
-    line-height: 38px;
-    border-top: 2px solid black;
+    /* margin-top: 50px; */
+    line-height: 28px;
+    /* border-top: 2px solid black; */
     padding-top: 80px;
+}
+
+.linea{
+    height: 1px;
+    background-color: black;
+    width: 70%;
+    margin: auto;
+}
+
+@media (min-width: 735px) {
+ .linea{
+    max-width: 500px;
+ }
 }
 
 .presentation__container{
